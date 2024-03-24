@@ -1,0 +1,291 @@
+{
+  "projects": [
+    {
+      "Title": "Фермерское здание",
+      "Type": "farming",
+      "CurrentPrice": 75000,
+      "FullPrice": 100000,
+      "ID": 1
+    },
+    {
+      "Title": "Сельскохозяйственный склад",
+      "Type": "farming",
+      "CurrentPrice": 90000,
+      "FullPrice": 120000,
+      "ID": 2
+    },
+    {
+      "Title": "Магазин сельскохозяйственной продукции",
+      "Type": "farming",
+      "CurrentPrice": 105000,
+      "FullPrice": 140000,
+      "ID": 3
+    },
+    {
+      "Title": "Тепличный комплекс",
+      "Type": "farming",
+      "CurrentPrice": 80000,
+      "FullPrice": 110000,
+      "ID": 4
+    },
+    {
+      "Title": "Гараж для сельскохозяйственной техники",
+      "Type": "farming",
+      "CurrentPrice": 95000,
+      "FullPrice": 130000,
+      "ID": 5
+    },
+    {
+      "Title": "Молочная ферма",
+      "Type": "farming",
+      "CurrentPrice": 120000,
+      "FullPrice": 160000,
+      "ID": 6
+    },
+    {
+      "Title": "Сельскохозяйственный рынок",
+      "Type": "farming",
+      "CurrentPrice": 110000,
+      "FullPrice": 150000,
+      "ID": 7
+    },
+    {
+      "Title": "Зернохранилище",
+      "Type": "farming",
+      "CurrentPrice": 85000,
+      "FullPrice": 115000,
+      "ID": 8
+    },
+    {
+      "Title": "Автосервис для спецтехники",
+      "Type": "farming",
+      "CurrentPrice": 100000,
+      "FullPrice": 135000,
+      "ID": 9
+    },
+    {
+      "Title": "Птицеферма",
+      "Type": "farming",
+      "CurrentPrice": 95000,
+      "FullPrice": 125000,
+      "ID": 10
+    },
+    {
+      "Title": "Сельскохозяйственный магазин",
+      "Type": "farming",
+      "CurrentPrice": 115000,
+      "FullPrice": 155000,
+      "ID": 11
+    },
+    {
+      "Title": "Техническое обслуживание сельскохозяйственной техники",
+      "Type": "farming",
+      "CurrentPrice": 105000,
+      "FullPrice": 140000,
+      "ID": 12
+    },
+    {
+      "Title": "Пищевая фабрика",
+      "Type": "farming",
+      "CurrentPrice": 130000,
+      "FullPrice": 170000,
+      "ID": 13
+    },
+    {
+      "Title": "Сельскохозяйственный ресторан",
+      "Type": "farming",
+      "CurrentPrice": 120000,
+      "FullPrice": 160000,
+      "ID": 14
+    },
+    {
+      "Title": "Хранение сельскохозяйственной продукции",
+      "Type": "farming",
+      "CurrentPrice": 90000,
+      "FullPrice": 120000,
+      "ID": 15
+    },
+    {
+      "Title": "Строительство торгового центра",
+      "Type": "retale",
+      "CurrentPrice": 7500000,
+      "FullPrice": 10000000,
+      "ID": 1001
+      },
+      {
+      "Title": "Строительство складского комплекса",
+      "Type": "retale",
+      "CurrentPrice": 6000000,
+      "FullPrice": 8000000,
+      "ID": 1002
+      },
+      {
+      "Title": "Реконструкция супермаркета",
+      "Type": "retale",
+      "CurrentPrice": 2000000,
+      "FullPrice": 2500000,
+      "ID": 1003
+      },
+      {
+      "Title": "Строительство сельскохозяйственного склада",
+      "Type": "retale",
+      "CurrentPrice": 3000000,
+      "FullPrice": 4000000,
+      "ID": 1004
+      },
+      {
+      "Title": "Магазин под ключ",
+      "Type": "retale",
+      "CurrentPrice": 1500000,
+      "FullPrice": 2000000,
+      "ID": 1006
+      },
+      {
+      "Title": "Строительство склада длительного хранения",
+      "Type": "retale",
+      "CurrentPrice": 10000000,
+      "FullPrice": 13000000,
+      "ID": 1007
+      },
+      {
+      "Title": "Реконструкция торгового центра",
+      "Type": "retale",
+      "CurrentPrice": 5000000,
+      "FullPrice": 7000000,
+      "ID": 1008
+      },
+      {
+      "Title": "Расширение склада",
+      "Type": "retale",
+      "CurrentPrice": 4000000,
+      "FullPrice": 5000000,
+      "ID": 1010
+      },
+      {
+      "Title": "Строительство крупного торгового комплекса",
+      "Type": "retale",
+      "CurrentPrice": 20000000,
+      "FullPrice": 25000000,
+      "ID": 1011
+      },
+      {
+      "Title": "Реконструкция технического помещения под склад",
+      "Type": "retale",
+      "CurrentPrice": 3000000,
+      "FullPrice": 4000000,
+      "ID": 1014
+      },
+      {
+      "Title": "Строительство маленького торгового павильона",
+      "Type": "retale",
+      "CurrentPrice": 500000,
+      "FullPrice": 700000,
+      "ID": 1015
+      },
+      {
+        "Title": "Строительство гаража из кирпича",
+        "Type": "garage",
+        "CurrentPrice": 250000,
+        "FullPrice": 300000,
+        "ID": 1
+        },
+        {
+        "Title": "Строительство гаража из металлоконструкций",
+        "Type": "garage",
+        "CurrentPrice": 180000,
+        "FullPrice": 200000,
+        "ID": 2
+        },
+        {
+        "Title": "Строительство СТО с подъемниками",
+        "Type": "garage",
+        "CurrentPrice": 400000,
+        "FullPrice": 450000,
+        "ID": 3
+        },
+        {
+        "Title": "Строительство гаража с мансардой",
+        "Type": "garage",
+        "CurrentPrice": 280000,
+        "FullPrice": 320000,
+        "ID": 4
+        },
+        {
+        "Title": "Строительство СТО с автомойкой",
+        "Type": "garage",
+        "CurrentPrice": 500000,
+        "FullPrice": 550000,
+        "ID": 5
+        },
+        {
+        "Title": "Строительство гаража с техническим помещением",
+        "Type": "garage",
+        "CurrentPrice": 320000,
+        "FullPrice": 350000,
+        "ID": 6
+        },
+        {
+        "Title": "Строительство СТО с офисом",
+        "Type": "garage",
+        "CurrentPrice": 600000,
+        "FullPrice": 650000,
+        "ID": 7
+        },
+        {
+        "Title": "Строительство гаража с подвалом",
+        "Type": "garage",
+        "CurrentPrice": 350000,
+        "FullPrice": 380000,
+        "ID": 8
+        },
+        {
+        "Title": "Строительство СТО с зоной для клиентов",
+        "Type": "garage",
+        "CurrentPrice": 550000,
+        "FullPrice": 600000,
+        "ID": 9
+        },
+        {
+        "Title": "Строительство гаража с террасой",
+        "Type": "garage",
+        "CurrentPrice": 300000,
+        "FullPrice": 330000,
+        "ID": 10
+        },
+        {
+        "Title": "Строительство СТО с кузовным цехом",
+        "Type": "garage",
+        "CurrentPrice": 700000,
+        "FullPrice": 750000,
+        "ID": 11
+        },
+        {
+        "Title": "Строительство гаража с теплым полом",
+        "Type": "garage",
+        "CurrentPrice": 330000,
+        "FullPrice": 360000,
+        "ID": 12
+        },
+        {
+        "Title": "Строительство СТО с шиномонтажом",
+        "Type": "garage",
+        "CurrentPrice": 650000,
+        "FullPrice": 700000,
+        "ID": 13
+        },
+        {
+        "Title": "Строительство гаража с электроприводом ворот",
+        "Type": "garage",
+        "CurrentPrice": 290000,
+        "FullPrice": 320000,
+        "ID": 14
+        },
+        {
+        "Title": "Строительство СТО с кафе",
+        "Type": "garage",
+        "CurrentPrice": 750000,
+        "FullPrice": 800000,
+        "ID": 15
+        }
+  ]
+}

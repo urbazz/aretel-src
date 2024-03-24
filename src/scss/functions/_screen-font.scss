@@ -1,0 +1,3 @@
+@function screen-font($font-size, $container-width) {
+  @return calc(($font-size/$container-width)*90vw);
+}

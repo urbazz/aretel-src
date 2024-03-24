@@ -1,0 +1,135 @@
+.reviews {
+  margin-top: -24px;
+  padding-top: 48px;
+  padding-bottom: 112px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: contain;
+
+  &-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 122%;
+  }
+
+  &__title {
+    margin: 0;
+    margin-top: 40px;
+    max-width: 612px;
+    font-weight: 500;
+    font-size: 120px;
+    line-height: 80%;
+
+    @media screen and (max-width: 644px) {
+      font-size: 72px;
+      margin-bottom: 18px;
+    }
+
+    @media screen and (max-width: 408px) {
+      font-size: 64px;
+    }
+
+    @media screen and (max-width: 365px) {
+      font-size: 48px;
+    }
+  }
+
+  &-img {
+    margin: 0;
+  }
+
+  &__slider {
+    margin-top: -24px;
+
+    @media screen and (max-width: 644px) {
+      margin: 0;
+    }
+  }
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px;
+  max-width: 800px;
+  width: 100%;
+  min-height: 332px;
+  border-radius: 24px;
+  backdrop-filter: blur(40px);
+  background: rgba(255, 255, 255, 0.1);
+  user-select: none;
+  transition: min-height .2s ease;
+
+  &.swiper-slide-active {
+    min-height: 402px;
+  }
+
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+    }
+  }
+
+  picture {
+    flex-shrink: 0;
+    @media screen and (max-width: 767px) {
+      margin-bottom: 24px;
+    }
+  }
+
+  &__img {
+    border-radius: 100%;
+  }
+
+  &__text {
+    margin: 0;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 122%;
+
+    &:not(:last-child) {
+      margin-bottom: 12px;
+    }
+
+    &-wrapper {
+      padding-left: 110px;
+
+      @media screen and (max-width: 767px) {
+        padding: 0;
+      }
+    }
+  }
+
+  &__btn {
+    padding: 17px 24px;
+  }
+}
+
+.swiper-wrapper {
+  align-items: flex-end;
+  @media screen and (max-width: 767px) {
+    align-items: center;
+  }
+}

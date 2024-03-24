@@ -1,0 +1,92 @@
+.header {
+  position: absolute;
+  top: 32px;
+  width: 100%;
+  color: #fff;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 30px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+  }
+
+  &__logo {
+    @media screen and (max-width: 767px) {
+      max-width: 52px;
+    }
+    svg path {
+      fill: #fff;
+    }
+    @media screen and (max-width: 767px){
+
+      path {
+        &:nth-child(2), &:last-child {
+          display: none;
+        }
+
+        &:first-child {
+          width: 52px;
+          height: 52px;
+        }
+      }
+    }
+  }
+
+  &__control {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+
+    @media screen and (max-width: 425px) {
+      gap: 15px;
+    }
+  }
+
+  &__phone {
+    &-icon {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 48px;
+      height: 48px;
+      border-radius: 100%;
+      background-color: rgba(241, 246, 255, 0.2);
+
+      @media screen and (max-width: 767px) {
+        display: none;
+      }
+      path {
+        fill: #fff;
+        transition: all .2s ease-in-out;
+      }
+    }
+
+    &-link {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 100%;
+      transition: color .2s ease-in-out;
+
+      &:hover {
+        @media screen and (min-width: 769px) {
+          color: var(--accent-color);
+
+          path {
+            fill: var(--accent-color);
+          }
+        }
+      }
+
+      @media screen and (max-width: 375px) {
+        font-size: 14px;
+      }
+    }
+  }
+
+}

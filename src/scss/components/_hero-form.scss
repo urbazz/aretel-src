@@ -1,0 +1,93 @@
+.hero-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+
+  &.hide {
+    opacity: 0;
+    visibility: hidden;
+    user-select: none;
+  }
+
+  @media screen and (max-width: 767px) {
+    gap: 25px;
+  }
+
+  @media screen and (max-width: 767px) {
+   flex-direction: column-reverse;
+   align-items: center;
+   text-align: center;
+  }
+
+  &__card {
+    @media screen and (min-width: 769px) {
+      cursor: pointer;
+      &:hover {
+        img {
+          transform: scale(1.25);
+        }
+      }
+    }
+  }
+
+  &__input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+
+  &__text-content {
+    text-align: right;
+
+    @media screen and (max-width: 767px) {
+      max-width: 300px;
+      width: 100%;
+      text-align: left;
+    }
+
+    @media screen and (max-width: 767px) {
+      text-align: center;
+     }
+  }
+
+  &__title {
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 122%;
+
+    @media screen and (max-width: 767px) {
+        font-size: 24px;
+        max-width: none;
+     }
+  }
+
+  &__btn {
+    padding: 17px 24px;
+    font-size: 14px;
+    line-height: 100%;
+  }
+}
+
+.hero-card {
+  &__img {
+    transition: transform .3s ease;
+
+    &-wrapper {
+      margin-bottom: 12px;
+      max-width: 300px;
+      max-height: 200px;
+      overflow: hidden;
+      border-radius: 24px;
+    }
+  }
+
+  &__title {
+    display: inline-block;
+    max-width: 216px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 122%;
+  }
+}

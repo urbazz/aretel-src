@@ -1,0 +1,78 @@
+.hero {
+  border-radius: 0;
+  &__wrapper {
+    padding-top: 165px;
+    padding-bottom: 32px;
+    border-radius: 0 0 24px 24px;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background: 0 100% / auto 510px no-repeat;
+    transition: background-image .1s ease-in-out;
+
+    @media screen and (max-width: 767px) {
+      background: 100% 26%/ contain no-repeat;
+    }
+  }
+
+  &__title {
+    margin-bottom: 62px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 120px;
+    line-height: 70%;
+    word-spacing: 20px;
+
+    @media screen and (max-width: 1200px) {
+      font-size: 100px;
+    }
+
+    @media screen and (max-width: 1200px) {
+      font-size: 64px;
+      word-spacing: 10px;
+    }
+
+    @media screen and (max-width: 767px) {
+      line-height: 100%;
+    }
+
+    span {
+      color: #71a7fe;
+    }
+
+    &-row {
+      margin: 0;
+
+      &:first-child {
+        text-align: left;
+        @media screen and (max-width: 767px) {
+          text-align: center;
+        }
+      }
+
+      &:last-child {
+        text-align: right;
+        @media screen and (max-width: 767px) {
+          text-align: center;
+        }
+      }
+
+      &:nth-child(2) {
+        text-align: center;
+      }
+    }
+  }
+
+  &__call-touch {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: #005df1;
+    svg {
+      path {
+        fill: #fff;
+      }
+    }
+  }
+}

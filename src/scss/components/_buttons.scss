@@ -1,0 +1,44 @@
+.btn {
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  transition: background .2s ease-in;
+  text-transform: uppercase;
+
+  &--accent {
+    color: #fff;
+    background: var(--accent-color);
+
+    @media screen and (min-width: 768px) {
+      &:hover {
+        background: #285cae;
+      }
+    }
+  }
+
+  &--light {
+    color: var(--accent-color);
+    background: #fff;
+
+    @media screen and (min-width: 768px) {
+      &:hover {
+        background: #e9e7e7;
+      }
+    }
+  }
+  &--reset {
+    background: transparent;
+    color: inherit;
+  }
+}
+
+.more-btn {
+border: 1px solid rgba(40, 92, 174, 0.2);
+border-radius: 100px;
+padding: 17px 0;
+width: 100%;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+color: var(--accent-color);
+}

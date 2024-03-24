@@ -1,0 +1,32 @@
+//Подключение переменных
+@import "./helpers/vars";
+
+//Сбросс стилей
+@import "./helpers/normalize";
+@import "./helpers/global";
+
+//Подключение миксинов
+@import "./mixins/fontface";
+@import "./mixins/fonts";
+@import "./functions/screen-font";
+
+//Подключение плагинов
+@import "./plugins/burger";
+@import "../../node_modules/swiper/swiper";
+
+//Подключение компонентов
+@import "./components/secions";
+@import "./components/buttons";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/call-touch";
+@import "./components/hero-form";
+@import "./components/progects-grid";
+@import "./components/project-card";
+@import "./components/about";
+@import "./components/accordion";
+@import "./components/reviews";
+@import "./components/portfolio";
+@import "./components/advantages";
+@import "./components/staff";
+@import "./components/footer";

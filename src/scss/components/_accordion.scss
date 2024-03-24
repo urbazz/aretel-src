@@ -1,0 +1,147 @@
+.accordion {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 32px 0;
+  border-top: 1px solid #285cae33;
+
+  @media screen and (max-width: 1155px) {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 702px;
+    width: 100%;
+
+    @media screen and (max-width: 1155px) {
+      max-width: 100%;
+    }
+  }
+
+  &__control-btn {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 1px solid #2b5eab33;
+    span {
+      display: inline-block;
+      width: 12px;
+      height: 2px;
+      background: var(--accent-color);
+
+      &::before {
+        content: '';
+        display: inline-block;
+        width: 2px;
+        height: 12px;
+        background: var(--accent-color);
+        transform: translateY(-65%);
+      }
+    }
+  }
+
+  &__index {
+    display: inline-block;
+    margin-bottom: 16px;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 114%;
+    color: #285cae99;
+
+    @media screen and (max-width: 1155px) {
+      opacity: 0;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 32px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    color: #285cae;
+  }
+
+  &__bottom {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .3s ease-out;
+
+    @media screen and (max-width: 1155px) {
+      text-align: center;
+    }
+  }
+
+  &__list {
+    margin: 0;
+    margin-bottom: 32px;
+    padding: 0;
+    list-style: none;
+    padding-right: 110px;
+
+    @media screen and (max-width: 1155px) {
+      padding: 0;
+      text-align: center;
+    }
+
+    &-item {
+      font-weight: 450;
+      font-size: 18px;
+      line-height: 111%;
+      &:not(:last-child) {
+        margin-bottom: 14px;
+      }
+    }
+  }
+
+  &__btn {
+    padding: 17px 36px;
+    max-width: 240px;
+    font-size: 14px;
+    line-height: 100%;
+  }
+
+  picture {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    cursor: pointer;
+
+    @media screen and (max-width: 1155px) {
+      margin-top: 24px;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 48px;
+      height: 48px;
+      background-image: url('../img/full-screen-icon.svg');
+      opacity: 0;
+      z-index: 2;
+      transition: opacity .2s ease;
+    }
+
+    &:hover {
+      &::before {
+        opacity: 1;
+      }
+    }
+  }
+
+  &.active {
+
+    picture {
+      display: flex;
+    }
+  }
+}

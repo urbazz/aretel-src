@@ -1,0 +1,11 @@
+.section {
+  &--accent {
+    background-color: var(--accent-color);
+    color: #fff;
+    border-radius: 24px;
+  }
+  &--light {
+    background: transparent;
+    color: var(--accent-text);
+  }
+}

@@ -1,0 +1,60 @@
+body {
+  &.hidden-x {
+    overflow-x: hidden;
+  }
+}
+
+.slider {
+  user-select: none;
+  user-select: none;
+  &__track {
+    display: flex;
+    touch-action: none;
+  }
+
+  &--horisontal {
+    .slider {
+      &__wrapper {
+        overflow: hidden;
+        overflow-y:visible;
+      }
+
+      &__track {
+        flex-direction: row;
+      }
+    }
+
+    .slide {
+      flex-shrink: 0;
+    }
+  }
+
+  &--vertical {
+    .slider {
+      &__wrapper {
+        overflow: hidden;
+        overflow-x:visible;
+      }
+
+      &__track {
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+.slide {
+  width: 100%;
+  height: 250px;
+
+  &:first-child {
+    background-color: red;
+  }
+  &:nth-child(2) {
+    background-color: green;
+  }
+  &:last-child {
+    background-color: blue;
+  }
+}
+

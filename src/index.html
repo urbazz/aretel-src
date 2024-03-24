@@ -1,0 +1,18 @@
+@@include('./html/modules/_head.html', {
+"lang": "ru",
+"title": "Эффективные системы обогрева"
+})
+<body class="body">
+  <!-- Пример работы Include -->
+  @@include('./html/modules/_header.html')
+  <main>
+    @@include('./html/modules/_hero.html')
+    @@include('./html/modules/_about.html')
+    @@include('./html/modules/_reviews.html')
+    @@include('./html/modules/_portfolio.html')
+    @@include('./html/modules/_advantages.html')
+    @@include('./html/modules/_staff.html')
+  </main>
+  @@include('./html/modules/_footer.html', {
+  "file": "index.js"
+  })

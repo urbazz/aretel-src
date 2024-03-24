@@ -1,0 +1,48 @@
+<section class="hero">
+  <div class="hero__wrapper section section--accent">
+    <div class="container hero__container" style="background-image: url('./img/hero-bg-1.svg');">
+      <h1 class="hero__title title">
+        <p class="hero__title-row">Готовые проекты</p>
+        <p class="hero__title-row"><span>заданий</span> для <span>вашего</span></p>
+        <p class="hero__title-row">бизнеса</p>
+      </h1>
+
+      @@include('./_call-touch.html', {
+        className: 'hero__call-touch'
+      })
+
+      <form class="hero__form hero-form">
+        <label class="hero-form__card hero-card">
+          <input type="radio" name="projectType" id="farming" class="hero-form__input" checked>
+          <div class="hero-card__img-wrapper">
+            <img src="./img/hero-img-1.jpg" alt="построенное нами стойло" class="hero-card__img" width="300px" height="200px" loading="lazy">
+          </div>
+          <span class="hero-card__title">Проекты  для сельского хозяйства</span>
+        </label>
+        <label class="hero-form__card hero-card">
+          <input type="radio" name="projectType" id="retale" class="hero-form__input">
+          <div class="hero-card__img-wrapper">
+            <img src="./img/hero-img-2.jpg" alt="построенное нами торговое помещение" class="hero-card__img" width="300px" height="200px" loading="lazy">
+          </div>
+          <span class="hero-card__title">Проекты для торговли и хранения</span>
+        </label>
+        <label class="hero-form__card hero-card">
+          <input type="radio" name="projectType" id="garage" class="hero-form__input">
+          <div class="hero-card__img-wrapper">
+            <img src="./img/hero-img-3.jpg" alt="построенные нами гаражи" class="hero-card__img" width="300px" height="200px" loading="lazy">
+          </div>
+          <span class="hero-card__title">Проекты гаражей, мастерских и СТО </span>
+        </label>
+        <div class="hero-form__text-content">
+          <h2 class="hero-form__title">
+            Готовые проекты <br>
+            для бизнеса, <br>
+            проверенные реальным <br>
+            бизнесом
+          </h2>
+          <button type="submit" class="btn btn--light hero-form__btn">ВЫБРАТЬ ПРОЕКТ</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

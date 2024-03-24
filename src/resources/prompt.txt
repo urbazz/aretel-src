@@ -1,0 +1,15 @@
+сгенерируй JSON файл с примерами работ для строительной компании Компания специализируется на строительстве гаражей и СТО. Основные поля: 1. Title: Заголовок на русском языке, 2. Type: Тип проекта garage, 3. CurrentPrice: цена с учетом скидки, размер скидки составляет от 10 до 25 процентов от полной цены, 4. FullPrice: полная стоимость проекта. ID: полностью уникальный цифровой идентификатор проекта. Необходимо сгенерировать обязательно 15 проектов.
+
+
+
+  private renderCard() {
+    this.getFormData(event);
+    const request:XMLHttpRequest = new XMLHttpRequest();
+    request.open("GET", requestURL);
+    request.responseType = "json";
+    request.send();
+
+    request.addEventListener('load', function() {
+      let projects = request.response.projects;
+    });
+  }
