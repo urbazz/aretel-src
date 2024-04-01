@@ -6,6 +6,10 @@
   position: relative;
   font-family: var(--font-family);
   background-color: var(--light-color);
+
+  &.hide {
+    overflow: hidden;
+  }
 }
 
 .container {

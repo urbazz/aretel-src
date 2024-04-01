@@ -1,4 +1,4 @@
-const requestURL: string = '../../resources/db.json';
+const requestURL: string = './resources/db.json';
 interface Project {
   Title ? : string,
     CurrentPrice ? : number,
